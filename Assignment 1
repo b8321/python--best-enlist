@@ -1,2 +1,80 @@
+DAY :2        STRING PRACTICE
 
-Print(30
+print("30 days 30 hour challenge")
+print('30 days 30 hour challenge')
+OUTPUT:
+30 days 30 hour challenge
+30 days 30 hour challenge
+
+Hours = "thirty"
+print(Hours)
+OUTPUT:
+thirty
+
+Days = "Thirty days"
+print(Days[0])
+OUTPUT:
+T
+Days = "Thirty days"
+print(Days[8])
+OUTPUT:
+a
+
+Challenge = "I will win"
+print(Challenge[7:10])
+OUTPUT:
+win
+
+Challenge = "I will win"
+print(len(Challenge))
+OUTPUT:
+10
+
+Challenge = "I will win"
+print(Challenge.lower())
+OUTPUT:
+i will win
+
+a = "30 Days"
+b = "30 hours"
+c = a + b
+print(c)
+OUTPUT:
+30 Days30 hours
+
+a = "30 Days"
+b = "30 hours"
+c = a + " " + b
+print(c)
+OUTPUT:
+30 Days 30 hours
+
+text = "Thirty days and Thirty hours"
+x = text.casefold()
+print(x)
+OUTPUT:
+thirty days and thirty hours
+
+text = "Thirty days and Thirty hours"
+x = text.capitalize()
+print(x)
+OUTPUT:
+Thirty days and thirty hours
+
+text = "Thirty days and Thirty hours"
+x = text.isalpha()
+print(x)
+OUTPUT:
+False
+
+text = "Thirty days and Thirty hours"
+x = text.isalnum()
+print(x)
+OUTPUT:
+False
+
+
+
+
+
+
