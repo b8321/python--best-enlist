@@ -1,0 +1,24 @@
+a = b = c = 20
+
+# divide a by 10
+division= a/10
+print(int(division))
+
+# multiply b by 50
+multiply= b * 50
+print(multiply)
+
+# add c value by 60
+addition = c + 60
+print(addition)
+
+# create string of 5 charcters and replace 3rd character with G
+variable= "mango"
+x = variable.replace(variable[3],"G")
+print(x)
+
+# create two values of int float datatypes and covert them viceversa
+a,b = 55,45.5
+a1 = (float(a))
+b1 = (int(b))
+print(a1,b1)
